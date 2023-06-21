@@ -26,8 +26,8 @@ class AlphabetPatterns {
     private static void printPyramid(int height) {
         for(int i = 0; i < height; i++) {
             for(int j = 0; j < i+1; j++) {
-                int a = 65 + j;
-                System.out.print((char)a + " ");
+                char c = 'A';
+                System.out.print((char)(c + j) + " ");
             }
             System.out.println();
         }
