@@ -8,6 +8,7 @@ class ReverseStar {
         int inp = sc.nextInt();
 
         ReverseTriangle(inp);
+        return;
 
     }
 
