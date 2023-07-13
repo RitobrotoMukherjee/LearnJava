@@ -19,5 +19,6 @@ class MainClass {
         SubsetOfArray cl = new SubsetOfArray(l1, l2);
 
         cl.getSolution();
+        System.out.println("Result: " + cl.getResult());
     }
 }
